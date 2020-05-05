@@ -1,0 +1,38 @@
+body, html{
+    height: 100%;
+}
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/imgs/DSC04319.JPG');
+    height: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.box{
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.button{
+    background-color:rgba(0, 0, 0, 0.205) ;
+    color: white;
+    border-radius: 5px;
+    border: white solid;
+    padding: 10px;
+    transform: translateY(400%);
+    font-size: 30px;
+}
+hr{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+}
+.title{
+    font-size: 60px;
+}
