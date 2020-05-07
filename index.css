@@ -1,5 +1,9 @@
 body, html{
     height: 100%;
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 .bg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/imgs/DSC04319.JPG');
@@ -16,7 +20,7 @@ body, html{
     color: white;
     top: 50%;
     left: 50%;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
 }
 .button{
@@ -28,11 +32,296 @@ body, html{
     transform: translateY(400%);
     font-size: 30px;
 }
-hr{
+.hr{
     margin: auto;
     width: 40%;
     background-color: white;
 }
+.hrb{
+    margin: 30px auto;
+    width: 40%;
+    background-color: black;
+}
 .title{
     font-size: 60px;
+}
+.chapters{
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+
+}
+.fifty{
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.center{
+    text-align: center;
+}
+.essay{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.p {
+    text-indent: 40px;
+}
+.imgright{
+    float: right;
+}
+.imgleft{
+    float: left;
+    z-index: 1;
+}
+
+.img1{
+    background: url("imgs/IMG_20141011_112447.jpg") no-repeat;
+    margin: 50px;
+    background-size: 400px;
+    width: 400px;
+    height: 532px;
+    background-position: 100% 30%;
+
+}
+.img2{
+    height: 600px;
+    width: 400px;
+    background: url("imgs/IMG_1936.JPG") no-repeat;
+    margin: 40px;
+    background-size: 500px;
+}
+.img3{
+    background: url(imgs/20160813_113541.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img4{
+    background: url(imgs/IMG_20161022_142111.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img5{
+    background: url(imgs/IMG_20161015_200410_1.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img6{
+    background: url(imgs/IMG_20150717_151013-ANIMATION.gif) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img7{
+    background: url(imgs/DSC04955.JPG) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img8{
+    background: url(imgs/DSC04747.JPG) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img9{
+    background: url(imgs/20160519_084432.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img10{
+    background: url(imgs/IMG_20171120_162716062.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img11{
+    background: url(imgs/S4010299.JPG) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img12{
+    background: url(imgs/20170722_195335_HDR.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img13{
+    background: url(imgs/IMG_20161216_200237.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img14{
+    background: url(imgs/IMG_20170611_114511.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img15{
+    background: url(imgs/IMG_20170603_203212.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img16{
+    background: url(imgs/20160717_062004.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+.img17{
+    background: url(imgs/20191202_213833.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 800px;
+    width: 500px;
+}
+.img18{
+    background: url(imgs/IMG_20180722_122056926.jpg) no-repeat;
+    margin: 40px;
+    background-size: 600px;
+    height: 600px;
+    width: 500px;
+}
+
+.chapter2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/20190823_202210.jpg);
+}
+.chapter3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20180604_121818340.jpg);
+}
+.chapter4{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/DSC04219.JPG);
+    background-position-y: 70%;
+}
+.chapter5{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20141205_123456.jpg);
+}
+.chapter6{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20171225_180714090.jpg);
+}
+.chapter7{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20161216_200440.jpg);
+    background-position-y: 30%;
+}
+.chapter8{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_1509.JPG);
+}
+.chapter9{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20200207_222007277.jpg);
+    background-position-y: 80%;
+}
+.chapter{
+    background-attachment: fixed;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    position: relative;
+}
+
+.yeartext{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+.font{
+    font-size: 500px;
+    color: white;
+}
+.spacer{
+    width: 100%;
+    height: 5%;
+}
+.y2004{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2004.JPG);
+    background-position-y:50% ;
+}
+.y2005{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2005.JPG);
+}
+.y2006{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2006.jpg);
+}
+.y2007{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2007.JPG);
+    background-position-y: 50%;
+}
+.y2008{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2008.JPG);
+    background-position-y: 30%;
+}
+.y2009{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2009.JPG);
+    background-position-y: 50%;
+}
+.y2010{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2010.JPG);
+    background-position-y:30%;
+}
+.y2011{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2011.JPG);
+    background-position-y: 40%;
+}
+.y2012{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2012.JPG);
+    background-position-y:20%;
+}
+.y2013{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+}
+.y2014{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2014.jpg);
+    background-position-y:20%;
+}
+.y2015{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2015.jpg);
+    background-position-y:80%;
+}
+.y2016{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2016.jpg);
+}
+.y2017{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2017.jpg);
+    background-position-y: 100%;
+}
+.y2018{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2018.jpg);
+    background-position-y: 50%;
+}
+.y2019{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2019.jpg); 
+}
+.y2020{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/2020.jpg);
+}
+.year{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
